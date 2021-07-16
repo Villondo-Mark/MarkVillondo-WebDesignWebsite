@@ -11,7 +11,7 @@ body {color: white; background-color: #010203; @include font; overflow-x: hidden
 .header {width: 101%; height: 90px;@include myGray; position: absolute; left: 0; top: 0; 
   padding: 5px; min-width: 950px}
 #logo {width: 300px; height: auto; position: absolute; margin-left: 30px;}
-.nav {position: absolute; right: 40px; top: 60px; min-width: 700px;}
+.nav {position: absolute; right: 40px; top: 60px; min-width: 700px; a {text-decoration: none; color: white}}
 .buttonBasic {display: inline; margin-left: 20px; text-align: center; 
   background-color: rgb(122,122,122,.17); 
   border-radius: 20px; padding: 10px 20px;}
@@ -32,8 +32,8 @@ body {color: white; background-color: #010203; @include font; overflow-x: hidden
 footer {text-align: center; @include myGray; margin-top: 20px; width: 100%; position: absolute; left: 0;}
 
 //CONTENT
-.aboutMeSection {margin: auto; margin-top: 150px; min-width: 600px; font-size: x-large;}
-#aboutMeTitle {font-size: 70px}
+.aboutMeSection {margin: auto; margin-top: 150px; min-width: 600px; font-size: x-large}
+#aboutMeTitle {font-size: 70px; text-decoration: none;}
  #markVillondoImg {width: 100%; margin-left: 30px;}
 .aboutMe {text-align: justify; line-height: 1.5em; width: 80%;margin-left: 10%; }
 #markVillondoImg {width: 80%}
@@ -71,9 +71,10 @@ margin-top: 20px;@include myGray}
 
 
 
-.section1 { width: 100%; height: 500px; margin-top: 150px}
+.section1 { width: 90%; ; margin: auto; height: 700px; margin-top: 120px; background-image: url("/images/section1background.png");background-size: 100% auto; background-repeat: no-repeat; }
 
 //SECTION 2
+.animationSection {width: 90%; margin: auto; margin-top: 100px;}
 .section2 {width: 100%; margin-top: 100px}
 .leafContainer {position: absolute; width: 100%; margin-top: -250px}
 .leaf {height: 10px; width: 30px; background-color: white; border-radius: 50%; opacity: 0%; position: relative}
