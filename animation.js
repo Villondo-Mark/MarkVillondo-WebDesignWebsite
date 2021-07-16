@@ -2,9 +2,6 @@ function animationFunction() {
   
     var animationPlay = document.getElementById("sun"); animationPlay.style.animation="risingSunAnimation 3s ease-in-out 1 forwards 3s";
     
-    var screenDisappear = 
-        document.getElementById("screen"); screenDisappear.style.animation="screenGone forwards 2s";
-    
       var leafFloat = document.getElementById("leaf1");
     
     leafFloat.style.animation="leafanimations ease-in-out forwards 2.4s 6s";
