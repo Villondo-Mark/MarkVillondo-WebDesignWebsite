@@ -301,16 +301,6 @@ footer {
   margin-top: 300px;
 }
 
-#screen {
-  position: absolute;
-  width: 100%;
-  background-color: #010203;
-  height: 400px;
-  z-index: 20;
-  color: white;
-  text-align: center;
-}
-
 #sun {
   height: 150px;
   width: 150px;
